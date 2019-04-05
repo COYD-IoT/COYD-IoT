@@ -54,4 +54,4 @@ While scanpcap.o is created to be fast and efficient, large data sets may slow t
 Through a combination of using the first two arguments, large .pcap files can be processed through multiple iterations.
 
 *Example program execution of 1 million packets, skipping the first 500 found in the input data set:*
-![scanpcap.o executable](Darknet%20Sanitization/images/scanpcap_example.png)
+![scanpcap.o executable](/images/scanpcap_example.png)
