@@ -1,0 +1,49 @@
+# list of ports and related protocols to grab the banners + the measured hitrate for each port (when scanning scanners inferred through the darknet)
+#     
+port_list = [
+	("80","http","http"),   		#10%
+	("22","ssh","ssh"), 			#5.2%
+	("443","http","http"),      	#4%
+	("21","ftp","ftp"), 			#3.5%
+	("23","telnet","telnet"), 		#3.5%
+	("8291","http","http"), 		#2.70%
+	("554","rtsp","rtsp"), 			#2.43%
+	("8080","http","http"), 		#2.16%
+	("7547","http","http"), 		#1.6%
+	("8888","http","http"), 		#1%
+	("5555","http","http"),			#1%
+	("81","http","http"), 			#1%
+	("631","http","http"),			#1%
+	("8081","http","http"), 		#0.92%
+	("8443","http","http"), 		#0.75%
+	("9000","http","http"),   		#0.75%
+	("8888","http","http"), 		#0.7%
+	("2323","telnet","telnet"),		#0.21%
+	("85","http","http"),   		#0.60%
+	("88","http","http"),  			#0.54%  
+	("8082","http","http"), 		#0.44%  
+	("445","smb","smb"), 			#0.40%
+	("8088","http","http"), 		#0.35%
+	("4567","http","http"), 		#0.34%
+	("82","http","http"),   		#0.33%
+	("7000","http","http"),  		#0.23%
+	("83","http","http"),   		#0.23%
+	("84","http","http"),   		#0.20%
+	("8181","http","http"), 		#0.22%
+	("5357","http","http"), 		#0.25%
+	("1900","http","http"), 		#0.3%          
+	("8083","http","http"), 		#0.25%
+	("8089","http","http"), 		#0.23%
+	("8090","http","http"), 		#0.23%
+	("110","pop3","pop3"), 			#0.26%
+	("143","imap","imap"), 			#0.25%
+	("993","imap --imaps","imaps"), #0.25%
+	("995","pop3 --pop3s","imaps"), #0.25%
+	("20000","dnp3","dnp3"),        #0.2%
+	("502","modbus","modbus"),      #0.14%
+	("102","s7","s7"),          	#0.1%
+	("47808","bacnet","bacnet"),    #0.08%
+	("1911","fox","fox"),           #0.05%
+	("5060",'sip',"sip"), # 0.45%
+	("5000","rtsp","rtsp")
+	]
